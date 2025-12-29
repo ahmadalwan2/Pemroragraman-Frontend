@@ -78,7 +78,8 @@ const update = async (index, user) => {
 const destroy = async (index) => {
   await delay(300);
   // isi di sini
-  
+  users.splice(index, 2)
+  await all ();
 };
 
 /**
