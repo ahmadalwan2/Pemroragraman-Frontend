@@ -1,10 +1,10 @@
-function Header() {
+function Header({ nama, tentang, login}) {
     return (
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Login</li>
+          <li>Home {nama}</li>
+          <li>About {tentang}</li>
+          <li>Login {login}</li>
         </ul>
       </nav>
     )
