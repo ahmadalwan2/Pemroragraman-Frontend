@@ -1,26 +1,15 @@
-import { Component, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './Header'
-import Footer from './Footer'
-import Profile from './Profile'
+import Customer from './Customer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <Header/>
-      <h1>To-do List :</h1>
-      <ol>
-        <li>Mengerjakan tugas front end</li>
-        <li>Mempelajari tutorial react js</li>
-        <li>Mengulang-ulang materi JavaScript</li>
-      </ol>
-      <Profile nama="Alwan" alamat={"Depok"} umur={20}/>
-      <img src="https://picsum.photos/200/300" alt="Tidak mendukung diperangkat anda" />
-      <Footer nama="wan.studio"/>
+      <Customer tag="Our Customer"/>
+      <Customer nama="Ucup" alamat={"Depok"} member={"Gold"} />
+      <Customer nama="Raja" alamat={"Jakarta"} member={"Silver"} />
+      <Customer nama="Aldi" alamat={"Bandung"} member={"Platinum"} />
+      <Customer nama="Alex" alamat={"Depok"} member={"Non member"} />
     </>
 
   )
