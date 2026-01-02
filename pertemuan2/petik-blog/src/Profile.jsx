@@ -7,6 +7,7 @@ const Profile = ({ nama, alamat, umur }) => {
                 <li>Alamat : {alamat}</li>
                 <li>Umur : {umur}</li>
             </ul>
+            <button>Contact me</button>
         </div>
     )
 }
