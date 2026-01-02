@@ -17,7 +17,7 @@ function App() {
         <li>Mempelajari tutorial react js</li>
         <li>Mengulang-ulang materi JavaScript</li>
       </ol>
-      <Footer/>
+      <Footer nama="wan.studio"/>
     </>
 
   )
