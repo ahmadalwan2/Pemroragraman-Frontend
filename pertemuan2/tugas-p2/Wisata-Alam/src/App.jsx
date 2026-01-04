@@ -19,7 +19,7 @@ function App() {
 
       <Customer p={"Harga Tiket Masuk Wisata Depok:"} c1={"Wisata Depok/1 - Rp.15.000"} c2={"Wisata Depok/2 - Rp.10.000"} c3={"Curug Pekayon - Rp.30.000"}/>
 
-      <Footer footer={"Copyright &copy;2026 Developed by NusaGo ❤️"}/>
+      <Footer footer={"Copyright 2026 Developed by NusaGo ❤️"}/>
     </>
   )
 }
